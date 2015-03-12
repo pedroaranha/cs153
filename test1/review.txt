@@ -1,0 +1,51 @@
+1) Pointers
+- * declaration
+- & address-of
+- * dereferencing
+'const' with pointers.
+
+2) dynamic allocation
+	'new'
+	'delete'
+- Dangling Pointer (pointer with invalid address)
+- Memory Leak (lost data in memory)
+- Shallow Copy (a copy of pointers, not data)
+
+3) Pointers and Arrays
+- dynamically allocate/de-allocate
+ - 1D Arrays
+ - 2D Arrays
+
+4) Pointers and Classes
+- 'this' pointer
+- -> dereference
+
+5) Classes and Pointers
+- Classes with dynamically allocated member variables.
+- Big-3
+ - destructor
+ - copy constructor
+ - operator=
+
+6) DEF: Abstract Data Type
+- A mathematical object together with operations.
+ - DEF: Data Structure
+  - A Particular implementation of an ADT.
+
+7) ADT List
+
+8) DS ArrayList
+- size()   - reverse()
+- first()  - isPalindrome()
+- last()
+
+9) DS LinkedList
+- Design
+- Running Pointer
+ - size()
+ - front()
+ - last()
+ - insert/remove()
+
+10) DS DoublyLinkedList
+- insert/remove()

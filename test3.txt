@@ -1,0 +1,48 @@
+Exception Handling
+- try, throw, catch
+
+Recursion
+- Recursive Algorithms
+Recursive Backtracking
+- General Algorithm
+- Apply General Algorithm
+
+ADT Tree
+Theory
+- Definition (root is greater than anything else, etc)
+- Vocabulary (parent, child, leaf, root, degree, depth, path...)
+Traversals
+- Pre-order
+- Post-order
+- Level-order
+
+ADT Binary Search Tree
+DEF -Binary (has no more than two children)
+DEF -Search 
+Operations:
+- Contains, getMin, getMax, insert, remove
+
+DS BSTree
+contains()
+getMin()
+getMax()    ====    Source Code
+insert()
+remove()
+
+ADT AVL-Trees
+DEF
+insert()
+- single rotation
+- double rotation
+Binary Search Tree + Balance condition (difference between right and left tree's height is at most one)
+
+Splay Tree
+- Binary Search Tree that every contains() bubble up the leaf you're searching
+- Good for stuff you don't wanna use very often
+
+KD-Tree
+- Multi-Dimentional Binary Search Tree
+
+Heap Tree
+- Binary Tree
+- Heap: Every node is greater than its descendants (doesn't matter about repeated elements)

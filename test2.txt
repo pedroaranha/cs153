@@ -1,0 +1,88 @@
+Big-Oh
+- rate of growth of functions
+DEF:
+- we say that f(x) is O(g(x)) if there exists constants C and No such that for every N > No:
+	f(N) ≤ C x g(N)
+
+Big-O Hierarchy:
+
+|   N!  |
+|  2^N  |
+|  ...  |
+|  N^3  |
+|  N^2  |
+|Nxlog2N|
+|   N   |
+| log2N |
+|   1   |
+
+EXAMPLE:
+int foo(int n){                      } 4n+1 is O(n)
+	x = n;     } 1 (assign)           n-1
+	for(int i = 0; i < n; i++){      } ∑ 4 = 4n
+	                                  k=0
+		if(n > 100){                 } 4 (comparison + mult + assign + assign (worse case))
+			x = x * 2;               } 2 (mult + assign)
+			y = x;                   } 1 (assign)
+		}
+		else{
+			x = -x;                  } 2 (mult + assign)
+		}
+	}
+}
+
+-> How to place a function in the hierarchy?
+-> Extracting a runtime function from source code
+ - sequence
+ - if
+ - for
+ - while
+
+
+Data Structure Analysis
+	ArrayList
+	LinkedList
+	DoublyLL
+-> Which to use in certain cases?
+
+
+C++
+- Inheritance
+	Declaring Derived Classes
+	What is inheritance?
+	Redefinition (not overwritten)
+	'protected'
+	Rules for Constructors and Destructors
+	Type Compatibility
+
+- Polymorphism
+	static type vs. dynamic type
+	'virtual'
+	- virtual functions
+	pure virtual functions
+	- foo() = 0;
+	Abstract Class
+	- Cannot be instantiated
+	- Derived Classes are abstract unless ALL pure virtual functions are defined
+
+ADT Stack
+	top()
+	push()
+	pop()
+- Application balanced parenthesis
+DS ArrayStack
+	CODE
+DS LLStack
+	CODE "reversed"
+
+
+ADT Queue
+	front()
+	enqueue()
+	dequeue()
+DS ArrayQueue
+	"circular Array"
+	CODE
+DS LLQueue
+	"circular LinkedList"
+	CODE
